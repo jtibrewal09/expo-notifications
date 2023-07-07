@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Sample project to test expo notifications
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a sample project to test expo notifications on server side made using react using expo-server-sdk package.
 
 ## Available Scripts
 
