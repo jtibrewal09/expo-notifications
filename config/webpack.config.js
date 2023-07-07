@@ -335,6 +335,12 @@ module.exports = function (webpackEnv) {
           babelRuntimeRegenerator,
         ]),
       ],
+      fallback: {
+        assert: require.resolve('assert/'),
+        zlib: require.resolve('browserify-zlib'),
+        stream: require.resolve("stream-browserify"),
+        buffer: require.resolve("buffer/"),
+      },
     },
     module: {
       strictExportPresence: true,
